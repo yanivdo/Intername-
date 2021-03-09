@@ -1,0 +1,26 @@
+<button type="button" onclick="location.href = '/';" class="backButton btn btn-primary">Back to view</button>
+
+<form>
+  <div class="mb-3">
+    <label for="username" class="form-label">User name</label>
+    <input type="text" class="userName form-control">
+    <div class="userErr err"></div>
+    </div>
+  <div class="mb-3">
+    <label for="InputEmail" class="form-label">Email address</label>
+    <input type="email" class="userEmail form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div class="emailErr err"></div>
+  </div>
+  <div class="mb-3">
+    <label for="postTitle" class="form-label">Post title</label>
+    <input type="text" class="postTitle form-control">
+    <div class="titleErr err"></div>
+  </div>
+  <div class="mb-3">
+    <label for="postBody" class="form-label">Post body</label>
+    <textarea class="postBody form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <div class="bodyErr err"></div>
+    </div>
+    <button type="submit" class="formSubmit btn btn-primary">Submit</button>
+    <div class="finalMsg"></div>
+</form>

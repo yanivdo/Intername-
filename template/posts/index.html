@@ -1,0 +1,31 @@
+
+<button type="button" class="formButton btn btn-primary">Add data</button>
+    <div class="search">
+    <div class="dropdownWrapper">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Search by</button>
+        <ul class="dropDown dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" data-value="post id" href="#">Post id</a></li>
+          <li><a class="dropdown-item" data-value="user id" href="#">User id</a></li>
+          <li><a class="dropdown-item" data-value="text" href="#">text</a></li>
+        </ul>
+      </div>
+    <input type="text" class="userFilter form-control" placeholder="Enter search...">
+    <div class="err searchTextErr"></div>
+    <button class="searchButton btn btn-primary" type="button">
+      Search
+      </button>
+  </div>
+</div>
+<table class="table table-dark table-striped">
+    <tr class="rowText">
+        <th>Id</th>
+        <th>User</th>
+        <th>Title</th>
+        <th>Body</th>
+        <th>Updated at</th>
+        <th>Created at</th>
+        </tr>
+        {{innerPage}}
+  </table>
+  {{pagination}}
+  {{postSum}}

@@ -1,0 +1,21 @@
+.btn{
+    margin: 5px;
+}
+
+.err{
+    display:hidden;
+    color: red;
+}
+
+.finalMsg{
+    color:green;
+}
+
+.search .dropdownWrapper{
+    display:inline-block;
+}
+
+.search .userFilter{
+    width:60%;
+    display:inline-block;
+} 
